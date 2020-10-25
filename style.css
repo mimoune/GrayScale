@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    transition: 0.5s;
+}
+img:nth-of-type(2) {
+    filter: grayscale(100%);
+}
+
+img:nth-of-type(1):hover {
+    filter: grayscale(100%);
+}
